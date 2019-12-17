@@ -5,14 +5,17 @@ html{
 body {
     flex-direction: column;
     height: 100%;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 header {
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
     height: 70px;
+    width: 100%;
+    padding: 15px;
     background: white;
+    z-index: 1;
 }
 ul {
     list-style: none;
@@ -23,15 +26,20 @@ ul {
     display: flex;
   }
 .menu {
+    padding: 30px;
     flex-direction: row;
 }
 .organization-name {
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .nav-item {
     padding: 15px 15px;
 }
 .center-items {
     align-items: center;
+}
+
+.fd-column {
+    flex-direction: column;
 }
