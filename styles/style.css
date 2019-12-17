@@ -1,0 +1,37 @@
+html{
+    height: 100%;
+}
+
+body {
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    background: white;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.d-flex {
+    display: flex;
+  }
+.menu {
+    flex-direction: row;
+}
+.organization-name {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.nav-item {
+    padding: 15px 15px;
+}
+.center-items {
+    align-items: center;
+}
