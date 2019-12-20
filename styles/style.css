@@ -44,6 +44,7 @@
 .to-book-block {
   box-sizing: border-box;
   height: 300px;
+  width: 100%;
   margin-top: 70px;
   padding: 70px 0px;
   background-size: cover;
