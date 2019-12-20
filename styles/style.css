@@ -38,13 +38,14 @@
 .h50 {
   height: 50px;
 }
-.h190 {
-  height: 120px;
+.h140 {
+  height: 140px;
 }
 .to-book-block {
   margin-top: 70px;
-  height: 400px;
-  background-position: center 69%;
+  height: 390px;
+  padding-top: 5px;
+  background-position: center 68%;
   background-repeat: no-repeat;
   background-image: url(../images/banner.png);
 }
@@ -53,10 +54,10 @@
   font-weight: bold;
   color: white;
 }
-.margin-top-10 {
-  margin-top: 10px;
+.margin-top-50 {
+  margin-top: 50px;
 }
 .bottom-book-block {
   color: white;
-  margin-top: 100px;
+  margin-top: 50px;
 }
