@@ -1,3 +1,8 @@
+body{
+    margin: 0; 
+    box-sizing: border-box;'
+}
+
 .header {
   justify-content: space-between;
   position: fixed;
