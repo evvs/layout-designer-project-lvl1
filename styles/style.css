@@ -45,10 +45,10 @@ header nav ul.menu li {
   height: 50px;
 }
 .h100 {
-  height: 100px;
+  height: 150px;
 }
 .to-book-block {
-  height: 300px;
+  height: 400px;
   width: 100%;
   margin-top: 70px;
   padding: 70px 0px;
@@ -65,7 +65,10 @@ header nav ul.menu li {
 .margin-top-10 {
   margin-top: 10px;
 }
-.bottom-book-block {
+.book-button {
   color: white;
-  margin-top: 25px;
+  margin-top: 70px;
+}
+.w-1000{
+    width: 1000px;
 }
