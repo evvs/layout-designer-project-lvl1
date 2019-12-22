@@ -28,6 +28,9 @@ button.feedback-button-send:hover {
   background-color: #5dcfae;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
+footer ul li {
+  color: white;
+}
 
 .header {
   position: fixed;
@@ -59,6 +62,7 @@ button.feedback-button-send:hover {
 }
 .book-block-text-smaller {
   font-size: 1.1rem;
+  font-weight: bold;
   color: white;
 }
 .book-button {
@@ -85,12 +89,10 @@ button.feedback-button-send:hover {
   background-color: #f7f7f7;
 }
 .about-inner {
-  justify-content: space-around;
   padding: 50px 0px;
 }
 
 .place-to-relax {
-  justify-content: space-around;
   margin: 50px 0px;
 }
 
@@ -114,6 +116,15 @@ button.feedback-button-send:hover {
   border: 1px solid #5dcfae;
 }
 
+.footer {
+  background-color: #303846;
+  padding: 80px 0px;
+}
+.footer-head-list {
+  font-size: 1.3rem;
+  color: white;
+}
+
 .flex {
   display: flex;
 }
@@ -123,11 +134,18 @@ button.feedback-button-send:hover {
 .organization-name {
   margin-left: 15px;
 }
+.organization-name-footer {
+  margin-left: 15px;
+  color: white;
+}
 .justify-center {
   justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
 }
 .align-center {
   align-items: center;
