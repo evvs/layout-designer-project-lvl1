@@ -5,8 +5,16 @@ body {
   margin: 0;
 }
 
+h2 {
+    margin: 0px 0px 0.83em;
+}
+
 header nav ul.menu li {
   padding-right: 15px;
+}
+
+div.advantages div {
+  width: 310px;
 }
 
 .header {
@@ -19,15 +27,54 @@ header nav ul.menu li {
   top: 0;
   z-index: 1;
 }
+.menu {
+  list-style: none;
+}
+
+.to-book-block {
+  height: 400px;
+  width: 100%;
+  margin-top: 70px;
+  padding: 70px 0px;
+  background-size: cover;
+  background-position: center 70%;
+  background-repeat: no-repeat;
+  background-image: url(../images/banner.png);
+}
+.book-block-text {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+}
+.book-block-text-smaller {
+  font-size: 1rem;
+  color: white;
+}
+.book-button {
+  color: white;
+  margin-top: 70px;
+}
+
+.advantages {
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.about {
+  background-color: #f7f7f7;
+}
+.about-inner {
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
 .flex {
   display: flex;
 }
 .direction-column {
   flex-direction: column;
 }
-.menu {
-  list-style: none;
-}
+
 .organization-name {
   margin-left: 15px;
 }
@@ -47,28 +94,14 @@ header nav ul.menu li {
 .h100 {
   height: 150px;
 }
-.to-book-block {
-  height: 400px;
-  width: 100%;
-  margin-top: 70px;
-  padding: 70px 0px;
-  background-size: cover;
-  background-position: center 70%;
-  background-repeat: no-repeat;
-  background-image: url(../images/banner.png);
-}
-.book-block-text {
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: white;
-}
+
 .margin-top-10 {
   margin-top: 10px;
 }
-.book-button {
-  color: white;
-  margin-top: 70px;
-}
+
 .w-1000 {
   width: 1000px;
+}
+.w-310 {
+  width: 310px;
 }
