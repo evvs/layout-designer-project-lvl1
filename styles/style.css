@@ -13,7 +13,7 @@ div.advantages div {
   width: 310px;
 }
 
-legend {
+fieldset.feedback-fieldset legend {
   color: #5dcfae;
   font-weight: bold;
   font-size: 1.2rem;
@@ -102,7 +102,7 @@ footer ul li {
 .feedback-inner {
   padding: 50px 0px;
 }
-.fieldset {
+.feedback-fieldset {
   border-color: #5dcfae;
 }
 .feedback-options-margin {
