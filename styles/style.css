@@ -5,10 +5,6 @@ body {
   margin: 0;
 }
 
-h2 {
-    margin: 0px 0px 0.83em;
-}
-
 header nav ul.menu li {
   padding-right: 15px;
 }
@@ -47,7 +43,7 @@ div.advantages div {
   color: white;
 }
 .book-block-text-smaller {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
 }
 .book-button {
@@ -66,6 +62,11 @@ div.advantages div {
 .about-inner {
   justify-content: space-around;
   padding: 50px 0px;
+}
+
+.place-to-relax {
+    justify-content: space-around;
+    margin: 50px 0px;
 }
 
 .flex {
@@ -88,20 +89,21 @@ div.advantages div {
 .bold-text {
   font-weight: bold;
 }
-.h50 {
-  height: 50px;
-}
-.h100 {
-  height: 150px;
-}
-
 .margin-top-10 {
   margin-top: 10px;
 }
-
+.h2-without-margin-top {
+    margin: 0px 0px 0.83em;
+}
 .w-1000 {
   width: 1000px;
 }
 .w-310 {
   width: 310px;
 }
+.h50 {
+    height: 50px;
+  }
+  .h100 {
+    height: 150px;
+  }
