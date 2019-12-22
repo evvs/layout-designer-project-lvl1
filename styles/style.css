@@ -32,6 +32,11 @@ footer ul li {
   color: white;
 }
 
+ul.menu a {
+  text-decoration: none;
+  color: #000;
+}
+
 .header {
   position: fixed;
   height: 70px;
