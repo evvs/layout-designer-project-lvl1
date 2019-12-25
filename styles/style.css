@@ -9,22 +9,13 @@ header nav ul.menu li {
   padding-right: 15px;
 }
 
-div.advantages div {
-  width: 310px;
-}
-
 fieldset.feedback-fieldset legend {
-  color: #5dcfae;
-  font-weight: bold;
   font-size: 1.2rem;
 }
-button.feedback-button-send {
-  color: #5dcfae;
-  font-size: 1rem;
-  font-weight: bold;
-}
+
 button.feedback-button-send:hover {
   color: white;
+  border-color: #5dcfae;
   background-color: #5dcfae;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
@@ -36,15 +27,18 @@ ul.menu a {
   text-decoration: none;
   color: #000;
 }
-div.book-button a {
-  text-decoration: none;
-  color: white;
+h2.heading-without-margin-top {
+  font-size: 1.8rem;
+}
+
+.options-apartment-drop-list,
+.border {
+  border-radius: 10px;
 }
 
 .header {
   position: fixed;
   height: 70px;
-  width: 100%;
   padding: 15px;
   background: white;
   top: 0;
@@ -55,84 +49,60 @@ div.book-button a {
 
 .to-book-block {
   height: 400px;
-  width: 100%;
   margin-top: 70px;
-  padding: 70px 0px;
-  background-size: cover;
-  background-position: center 70%;
+  background-position: 30% 70%;
   background-repeat: no-repeat;
   background-image: url(../images/banner.png);
 }
-.book-block-text {
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: white;
+.book-block-text-size {
+  font-size: 3rem;
 }
-.book-block-text-smaller {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: white;
+.book-block-smaller-text-size {
+  font-size: 1.2rem;
 }
 .book-button {
   height: 40px;
-  width: 150px;
   padding: 10px 10px;
-  color: white;
-  font-weight: bold;
   text-align: center;
-  border-radius: 10px;
-  outline: none;
-  border: 1px solid white;
   background-color: transparent;
 }
 .book-button:hover {
   background-color: #ffb52d;
-  border-color: white;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
 .advantages {
   margin: 30px 0px;
 }
-
-.about {
-  background-color: #f7f7f7;
-}
-.about-inner {
-  padding: 50px 0px;
-}
-
 .place-to-relax {
   margin: 50px 0px;
 }
 
-.feedback {
-  background-color: #f7f7f7;
-}
-.feedback-inner {
-  padding: 50px 0px;
-}
 .feedback-fieldset {
   border-color: #5dcfae;
 }
 .feedback-options-margin {
   margin: 10px 8px;
 }
+.options-apartment-drop-list {
+  width: 110px;
+  height: 30px;
+}
+.contact-information-text-field {
+  width: 130px;
+  height: 25px;
+}
 .feedback-button-send {
   height: 35px;
   width: 150px;
-  border-radius: 10px;
-  outline: none;
-  border: 1px solid #5dcfae;
+  font-size: 1rem;
 }
-
 .footer {
   background-color: #303846;
   padding: 80px 0px;
 }
 .footer-head-list {
   font-size: 1.3rem;
-  color: white;
 }
 
 .flex {
@@ -140,13 +110,6 @@ div.book-button a {
 }
 .direction-column {
   flex-direction: column;
-}
-.organization-name {
-  margin-left: 15px;
-}
-.organization-name-footer {
-  margin-left: 15px;
-  color: white;
 }
 .justify-center {
   justify-content: center;
@@ -163,44 +126,57 @@ div.book-button a {
 .bold-text {
   font-weight: bold;
 }
+.text-dec-none {
+  text-decoration: none;
+}
 .margin-top-10 {
   margin-top: 10px;
 }
 .margin-top-15 {
   margin-top: 15px;
 }
-.margin-top-60 {
-  margin-top: 60px;
-}
 .heading-without-margin-top {
   margin: 0px 0px 0.83em;
+}
+.c-emerald {
+  color: #5dcfae;
+}
+.c-white {
+  color: white;
+}
+.c-grey {
+  color: grey;
+}
+.back-color-light-grey {
+  background-color: #f7f7f7;
+}
+.w-100per {
+  width: 100%;
 }
 .w-1000 {
   width: 1000px;
 }
-.w-310 {
-  width: 310px;
+.w-30per {
+  width: 30%;
 }
-.w-354 {
-  width: 354px;
+.w-50per {
+  width: 50%;
+}
+.w-380 {
+  width: 380px;
 }
 .h50 {
   height: 50px;
 }
-.h100 {
-  height: 150px;
+.h170 {
+  height: 170px;
 }
-
-.options-apartment-drop-list {
-  border-radius: 30px;
-  width: 110px;
-  height: 30px;
-  outline: none;
+.padding-for-inner-block {
+  padding: 50px 0px;
 }
-.contact-information-text-field {
-  border-radius: 30px;
-  width: 130px;
-  height: 25px;
-  outline: none;
-  border: 1px solid #a9a9a9;
+.margin-from-logo {
+  margin-left: 15px;
+}
+.border {
+  border: 1px solid;
 }

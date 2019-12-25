@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="header flex align-center justify-between">
+    <header class="header flex align-center justify-between w-100per">
       <div class="flex align-center">
         <img src="images/logo.svg" alt="logo" class="h50" />
-        <div class="organization-name bold-text">Лунное море</div>
+        <div class="bold-text margin-from-logo">
+          Лунное море
+        </div>
       </div>
       <nav>
         <ul class="menu flex bold-text">
@@ -23,34 +25,39 @@
       </nav>
     </header>
     <main>
-      <div class="flex to-book-block justify-center align-center">
+      <div class="flex to-book-block justify-center align-center w-100per">
         <div class="flex direction-column align-center">
-          <img src="images/logo.svg" alt="logo" class="h100" />
+          <img src="images/logo.svg" alt="logo" class="h170" />
           <div class="flex align-center direction-column margin-top-10">
-            <div class="book-block-text">ЖК «Лунное море»</div>
-            <div class="book-block-text-smaller" id="advantages">
+            <div class="book-block-text-size bold-text c-white">
+              ЖК «Лунное море»
+            </div>
+            <div
+              class="book-block-smaller-text-size bold-text c-white"
+              id="advantages"
+            >
               Место, откуда не хочется уезжать
             </div>
           </div>
-          <div class="book-button margin-top-60">
-            <a href="#feedback">Забронировать</a>
+          <div class="book-button bold-text border c-white margin-top-15">
+            <a href="#feedback" class="c-white text-dec-none">Забронировать</a>
           </div>
         </div>
       </div>
       <div class="flex justify-center">
         <div class="flex w-1000 advantages justify-between">
-          <div>
+          <div class="w-30per">
             <h2 class="heading-without-margin-top">Уникальный вид</h2>
             Вид на космос из вашего окна. Мы построили дома с большими окнами,
             чтобы вы могли наслаждаться метеоритными потоками.
           </div>
-          <div>
+          <div class="w-30per">
             <h2 class="heading-without-margin-top">Инфраструктура</h2>
             Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в
             200 км. от посёлка находится кольцо гор Кордильеры, на которых вы
             сможете провести незабываемые выходные.
           </div>
-          <div>
+          <div class="w-30per">
             <h2 class="heading-without-margin-top" id="about">
               Близость к Москве
             </h2>
@@ -59,9 +66,9 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-center about">
-        <div class="flex w-1000 about-inner justify-around">
-          <div class="w-310">
+      <div class="flex justify-center back-color-light-grey">
+        <div class="flex w-1000 justify-around padding-for-inner-block">
+          <div class="w-50per">
             <h2 class="heading-without-margin-top" id="place-to-relax">
               О ЖК «Лунное море»
             </h2>
@@ -74,13 +81,13 @@
             Мы построили наши дома на самом близком к Солнцу спутнике, всего в
             380 тысяч километров от Земли.
           </div>
-          <img src="images/moon-1.jpg" alt="moon-1" class="w-310" />
+          <img src="images/moon-1.jpg" alt="moon-1" class="w-30per" />
         </div>
       </div>
       <div class="flex justify-center">
         <div class="flex w-1000 place-to-relax justify-around">
-          <img src="images/moon-2.jpg" alt="moon-2" class="w-310" />
-          <div class="w-310">
+          <img src="images/moon-2.jpg" alt="moon-2" class="w-30per" />
+          <div class="w-50per">
             <h2 class="heading-without-margin-top">Места для отдыха</h2>
             Луна обладает всеми условиями для комфортного отдыха от большого
             города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее
@@ -92,16 +99,16 @@
           </div>
         </div>
       </div>
-      <div class="feedback" id="feedback">
-        <div class="flex direction-column align-center feedback-inner">
+      <div class="back-color-light-grey" id="feedback">
+        <div class="flex direction-column align-center padding-for-inner-block">
           <h2 class="heading-without-margin-top">Оставьте заявку сегодня!</h2>
-          <form>
+          <form class="w-380">
             <fieldset class="feedback-fieldset">
-              <legend>
+              <legend class="c-emerald bold-text">
                 Параметры квартиры
               </legend>
               <div
-                class="flex w-310 justify-between align-center feedback-options-margin"
+                class="flex  justify-between align-center feedback-options-margin"
               >
                 <div class="bold-text">Количество комнат:</div>
                 <select class="options-apartment-drop-list">
@@ -111,7 +118,7 @@
                 </select>
               </div>
               <div
-                class="flex w-310 justify-between align-center feedback-options-margin"
+                class="flex justify-between align-center feedback-options-margin"
               >
                 <div class="bold-text">Отделка:</div>
                 <select class="options-apartment-drop-list">
@@ -123,30 +130,42 @@
             </fieldset>
 
             <fieldset class="feedback-fieldset margin-top-15">
-              <legend>
+              <legend class="c-emerald bold-text">
                 Контактная информация
               </legend>
               <div
-                class="flex w-310 justify-between align-center feedback-options-margin"
+                class="flex justify-between align-center feedback-options-margin"
               >
                 <div class="bold-text">Имя:</div>
-                <input type="text" class="contact-information-text-field" />
+                <input
+                  type="text"
+                  class="contact-information-text-field border c-grey"
+                />
               </div>
               <div
-                class="flex w-310 justify-between align-center feedback-options-margin"
+                class="flex  justify-between align-center feedback-options-margin"
               >
                 <div class="bold-text">Телефон:</div>
-                <input type="text" class="contact-information-text-field" />
+                <input
+                  type="text"
+                  class="contact-information-text-field border c-grey"
+                />
               </div>
               <div
-                class="flex w-310 justify-between align-center feedback-options-margin"
+                class="flex justify-between align-center feedback-options-margin"
               >
                 <div class="bold-text">E-mail:</div>
-                <input type="text" class="contact-information-text-field" />
+                <input
+                  type="text"
+                  class="contact-information-text-field border c-grey"
+                />
               </div>
             </fieldset>
 
-            <button class="feedback-button-send margin-top-10">
+            <button
+              class="feedback-button-send margin-top-15 bold-text c-emerald border
+            "
+            >
               Отправить
             </button>
           </form>
@@ -158,19 +177,23 @@
         <div class="flex direction-column">
           <div class="flex align-center">
             <img src="images/logo.svg" alt="logo" class="h50" />
-            <div class="organization-name-footer bold-text">Лунное море</div>
+            <div class="margin-from-logo bold-text c-white">
+              Лунное море
+            </div>
           </div>
-          <div class="margin-top-10" style="color: white;">&copy; 2032 год</div>
+          <div class="margin-top-10 c-white">&copy; 2032 год</div>
         </div>
         <div class="flex direction-column">
-          <div class="bold-text footer-head-list">Проектная документация</div>
+          <div class="bold-text c-white footer-head-list">
+            Проектная документация
+          </div>
           <ul class="margin-top-10">
             <li>Скачать</li>
             <li>Посмотреть на сайте</li>
           </ul>
         </div>
         <div class="flex direction-column">
-          <div class="bold-text footer-head-list">О застройщике</div>
+          <div class="bold-text c-white footer-head-list">О застройщике</div>
           <ul class="margin-top-10">
             <li>Отзывы</li>
             <li>Сайт компании</li>
