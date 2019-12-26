@@ -2,6 +2,10 @@
   box-sizing: border-box;
   outline: none;
 }
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
 body {
   margin: 0;
 }
@@ -50,7 +54,6 @@ h2.heading-without-margin-top {
 
 .to-book-block {
   height: 400px;
-  margin-top: 70px;
   background-position: 30% 70%;
   background-repeat: no-repeat;
   background-image: url(../images/banner.png);
@@ -136,6 +139,12 @@ h2.heading-without-margin-top {
 .margin-top-15 {
   margin-top: 15px;
 }
+.margin-right-30 {
+  margin-right: 30px;
+}
+.margin-top-70 {
+  margin-top: 70px;
+}
 .heading-without-margin-top {
   margin: 0px 0px 0.83em;
 }
@@ -150,6 +159,9 @@ h2.heading-without-margin-top {
 }
 .back-color-light-grey {
   background-color: #f7f7f7;
+}
+.back-color-white {
+  background-color: white;
 }
 .w-100per {
   width: 100%;
