@@ -1,3 +1,13 @@
+:root {
+  --grey: #808080;
+  --light-grey: #f7f7f7;
+  --white: #ffffff;
+  --black: #000000;
+  --emerald: #5dcfae;
+  --orange: #ffb52d;
+  --marengo: #303846;
+}
+
 * {
   box-sizing: border-box;
   outline: none;
@@ -13,7 +23,7 @@ main {
   margin-top: 70px;
 }
 
-ul.menu li {
+.menu li {
   padding-right: 15px;
 }
 
@@ -21,19 +31,19 @@ ul.menu li {
   font-size: 1.2rem;
 }
 
-button.feedback-button-send:hover {
-  color: white;
-  border-color: #5dcfae;
-  background-color: #5dcfae;
+.feedback-button-send:hover {
+  color: var(--white);
+  border-color: var(--emerald);
+  background-color: var(--emerald);
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
-footer ul li {
-  color: white;
+.footer-list li {
+  color: var(--white);
 }
 
-ul.menu a {
+.menu a {
   text-decoration: none;
-  color: #000;
+  color: var(--black);
 }
 h2.heading-without-margin-top {
   font-size: 1.8rem;
@@ -48,7 +58,7 @@ h2.heading-without-margin-top {
   position: fixed;
   height: 70px;
   padding: 15px;
-  background: white;
+  background: var(--white);
   top: 0;
 }
 .menu {
@@ -73,7 +83,7 @@ h2.heading-without-margin-top {
   text-align: center;
 }
 .book-button:hover {
-  background-color: #ffb52d;
+  background-color: var(--orange);
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -85,7 +95,7 @@ h2.heading-without-margin-top {
 }
 
 .feedback-fieldset {
-  border-color: #5dcfae;
+  border-color: var(--emerald);
 }
 .feedback-options-margin {
   margin: 10px 8px;
@@ -102,10 +112,9 @@ h2.heading-without-margin-top {
   height: 35px;
   width: 150px;
   font-size: 1rem;
-  background-color: transparent;
 }
 .footer {
-  background-color: #303846;
+  background-color: var(--marengo);
   padding: 80px 0px;
 }
 .footer-head-list {
@@ -149,19 +158,19 @@ h2.heading-without-margin-top {
   margin: 0px 0px 0.83em;
 }
 .c-emerald {
-  color: #5dcfae;
+  color: var(--emerald);
 }
 .c-white {
-  color: white;
+  color: var(--white);
 }
 .c-grey {
-  color: grey;
+  color: var(--grey);
 }
 .back-color-light-grey {
-  background-color: #f7f7f7;
+  background-color: var(--light-grey);
 }
 .back-color-white {
-  background-color: white;
+  background-color: var(--white);
 }
 .w-100per {
   width: 100%;
